@@ -11,31 +11,25 @@ html
 		
 	
 	body
-		
-		.top-bar
-			.container
-				.row
-				.top-number
-					i.fa.fa-phone-square.p.
-						+888 894 2668
-
+		.top-bar.row.top-number
+			
 		.navbar.navbar-inverse
-			.container
-				.navbar-header
-					a.navbar-inverse.navbar-brand(href='/') 
-						img(src='/images/x-logoBlackSmall.png')
-					button.navbar-toggle(type='button', data-toggle='collapse', datarget='#navbar-main')
-						span.icon-bar
-						span.icon-bar
-						span.icon-bar
-						span.icon-bar
-				#navbar-main.navbar-collapse.collapse
-					ul.nav.navbar-nav
-						li
-							a(href='/catalog/') Catalog
-					ul.nav.navbar-nav.navbar-right
-						li
-							a(href='/sponsorships/') Sponsorships
+				.container
+					.navbar-header
+						a.navbar-inverse.navbar-brand(href='/') 
+							img(src='/images/x-logoBlackSmall.png')
+						button.navbar-toggle(type='button', data-toggle='collapse', datarget='#navbar-main')
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+					#navbar-main.navbar-collapse.collapse
+						ul.nav.navbar-nav
+							li
+								a(href='/catalog/') Catalog
+						ul.nav.navbar-nav.navbar-right
+							li
+								a(href='/sponsorships/') Sponsorships
 	.container
 		block content
 
