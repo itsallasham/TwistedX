@@ -1,0 +1,4 @@
+link(rel='stylesheet', href='/bootstrap/css/font-awesome.css')
+		link(rel='stylesheet', href='/bootstrap/css/animate.min.css')
+		link(rel='stylesheet', href='/bootstrap/css/prettyPhoto.css')
+		link(rel='stylesheet', href='/bootstrap/css/responsive.css')

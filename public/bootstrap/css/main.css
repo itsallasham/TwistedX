@@ -289,7 +289,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
+  background-color: #c52d2f;
   color: #fff;
 }
 
@@ -2524,9 +2524,5 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
-
-
-
-
 
 
