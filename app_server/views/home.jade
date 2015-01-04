@@ -1,7 +1,50 @@
 extends layout
 
 block content
-	.container
-		section#main-slider.no-margin
-			.carousel.carousel-content
-			p Here is your mom	
+
+	section#main-slider.no-margin
+		.carousel.slide
+			ol.carousel-indicators
+				li.active(data-target='#main-slider', data-slide-to='0')
+					
+				li(data-target='#main-slider', data-slide-to='1')
+
+				li(data-target='#main-slider', data-slide-to='2')
+			.carousel-inner
+				.item.active(style='background-image: url(/bootstrap/images/slider/bg1.jpg)')
+					.container
+						.row.slide-margin
+							.col-sm-6
+								.carousel-content
+									h1.animation.animated-item-1 Lorem ipsum dolor sit amet consectetur adipisicing elit
+									h2.animation.animated-item-2 Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...
+									a.btn-slide.animation.animated-item-3(href='#') Read More
+							
+				// /.item
+				.item(style='background-image: url(/bootstrap/images/slider/bg2.jpg)')
+					.container
+						.row.slide-margin
+							.col-sm-6
+								.carousel-content
+									h1.animation.animated-item-1 Lorem ipsum dolor sit amet consectetur adipisicing elit
+									h2.animation.animated-item-2 Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...
+									a.btn-slide.animation.animated-item-3(href='#') Read More
+							
+				// /.item
+				.item(style='background-image: url(/bootstrap/images/slider/bg3.jpg)')
+					.container
+						.row.slide-margin
+							.col-sm-6
+						.carousel-content
+							h1.animation.animated-item-1 Lorem ipsum dolor sit amet consectetur adipisicing elit
+							h2.animation.animated-item-2 Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...
+							a.btn-slide.animation.animated-item-3(href='#') Read More
+						
+				// /.item
+			// /.carousel-inner
+		// /.carousel
+		a.prev.hidden-xs(href='#main-slider', data-slide='prev')
+			i.fa.fa-chevron-left
+		a.next.hidden-xs(href='#main-slider', data-slide='next')
+			i.fa.fa-chevron-right
+	// /#main-slider

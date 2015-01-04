@@ -17,3 +17,16 @@ link(rel='stylesheet', href='/bootstrap/css/font-awesome.css')
     .top-bar
 		.row
 			.top-number	
+
+.col-sm-6.hidden-xs.animation.animated-item-4
+								.slider-img
+									img.img-responsive(src='/bootstrap/images/slider/img2.png')
+
+.col-sm-6.hidden-xs.animation.animated-item-4
+							.slider-img
+								img.img-responsive(src='/bootstrap/images/slider/img3.png')
+
+
+.col-sm-6.hidden-xs.animation.animated-item-4
+								.slider-img
+									img.img-responsive(src='/bootstrap/images/slider/img1.png')
