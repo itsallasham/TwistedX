@@ -30,3 +30,11 @@ link(rel='stylesheet', href='/bootstrap/css/font-awesome.css')
 .col-sm-6.hidden-xs.animation.animated-item-4
 								.slider-img
 									img.img-responsive(src='/bootstrap/images/slider/img1.png')
+
+.container
+			#footer.footer
+				.container
+					.row
+						.col-xs-12
+							small &copy; Raymond L. Whatley IIV 2015
+			// /.container
