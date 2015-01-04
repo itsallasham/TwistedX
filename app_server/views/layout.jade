@@ -11,7 +11,25 @@ html
 	body
 		.top-bar
 			.row
-				.top-number
+				.col-sm-12.col-xs-12
+					.social
+						ul.social-share
+							li
+								a(href='/#/')
+									i.fa.fa-facebook
+							li
+								a(href='/#/')
+									i.fa.fa-twitter
+							li
+								a(href='/#/')
+									i.fa.fa-linkedin
+							li
+								a(href='/#/')
+									i.fa.fa-pinterest
+						.search
+							form(role='form')
+								input.search-form(type='text', autocomplete='off', placeholder='Search')                          
+								i.fa.fa-search
 		.navbar.navbar-inverse
 				
 					.navbar-header
@@ -30,6 +48,7 @@ html
 						ul.nav.navbar-nav.navbar-right
 							li
 								a(href='/sponsorships/') Sponsorships
+
 		.container
 			block content
 
