@@ -8,30 +8,30 @@ html
 		link(rel='stylesheet', href='/bootstrap/css/font-awesome.css')
 		link(rel='stylesheet', href='/bootstrap/css/animate.min.css')
 		link(rel='stylesheet', href='/bootstrap/css/prettyPhoto.css')
-		
-	
 	body
-	.top-bar.row.top-number
-			
+		.top-bar
+			.row
+				.top-number
 		.navbar.navbar-inverse
-				.container
+				
 					.navbar-header
-						a.navbar-inverse.navbar-brand(href='/') 
-							img(src='/images/x-logoBlackSmall.png')
-						button.navbar-toggle(type='button', data-toggle='collapse', datarget='#navbar-main')
-							span.icon-bar
-							span.icon-bar
-							span.icon-bar
-							span.icon-bar
+							a.navbar-inverse.navbar-brand(href='/') 
+								img(src='/images/x-logoBlackSmall.png')
+							button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
 					#navbar-main.navbar-collapse.collapse
 						ul.nav.navbar-nav
 							li
 								a(href='/catalog/') Catalog
+
 						ul.nav.navbar-nav.navbar-right
 							li
 								a(href='/sponsorships/') Sponsorships
-	.container
-		block content
+		.container
+			block content
 
 
 
